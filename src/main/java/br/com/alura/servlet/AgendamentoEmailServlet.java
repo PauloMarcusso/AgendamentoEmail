@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.alura.domain.AgendamentoEmail;
 import br.com.alura.service.AgendamentoEmailService;
 
-@WebServlet("/emails")
+//@WebServlet("/emails")
 public class AgendamentoEmailServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
