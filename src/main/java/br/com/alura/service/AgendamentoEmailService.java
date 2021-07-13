@@ -17,4 +17,9 @@ public class AgendamentoEmailService {
 	public List<AgendamentoEmail> listar(){
 		return agendamentoEmailDAO.listar();
 	}
+	
+	public void inserir(AgendamentoEmail agendamentoemail) {
+		agendamentoemail.setAgendado(false);
+		agendamentoEmailDAO.inserir(agendamentoemail);
+	}
 }
