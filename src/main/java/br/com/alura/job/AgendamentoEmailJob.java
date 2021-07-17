@@ -12,7 +12,7 @@ import br.com.alura.service.AgendamentoEmailService;
 
 @Singleton
 public class AgendamentoEmailJob {
-
+ 
 	@Inject
 	private AgendamentoEmailService agendamentoEmailService;
 	
